@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="SighUp.css" </head>
+
+<body>
+    <!-- Background Slideshow -->
+    <div class="slideshow">
+        <div class="slide active"></div>
+        <div class="slide active"></div>
+        <div class="slide active"></div>
+        <div class="slide active"></div>
+    </div>
+    <header>
+        <nav>
+            <div class="logo"><i class="fas fa-laptop-code"></i> MUK'S TECH</div>
+            <ul class="nav-links">
+                <li><a href="index.html" target="_blank"><i class="fas fa-home"></i>Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <!-- Sign Up Page -->
+        <div id="signup">
+            <h1>Create a New Account</h1>
+            <form id="signupForm">
+                <div class="form-group">
+                    <label for="signupName">Full Name</label>
+                    <input type="text" id="signupName" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupEmail">Email Address</label>
+                    <input type="email" id="signupEmail" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupPassword">Password</label>
+                    <input type="password" id="signupPassword" placeholder="Create a password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" placeholder="Confirm your password" required>
+                </div>
+                <button type="submit" class="btn">Sign Up</button>
+            </form>
+            <script>
+                document.getElementById("submitBtn").onclick = function () {
+                    window.location.href = "login.html";
+                };
+                document.getElementById("signupBtn").onclick = function () {
+                    window.location.href = "signup.html";
+                };
+            </script>
+            <p style="margin-top: 1.5rem; text-align: center;">Already have an account? <a href="login.html"
+                    style="color: #4dc7ff;">Login here</a></p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 MUK'S TECH. All rights reserved.</p>
+        <p class="developer-info">Developed by Mukwato Mukwato | <i class="fas fa-phone"></i> Contact: 260973542359</p>
+    </footer>
+
+    </div>
+
+</body>
+
+</html>

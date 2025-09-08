@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="login.css"
+</head>
+<body>
+    <!-- Background Slideshow -->
+    <div class="slideshow">
+        <div class="slide active"></div>
+        <div class="slide active"></div>
+        <div class="slide active"></div>
+        <div class="slide active"></div>
+    </div>
+    <header>
+        <nav>
+            <div class="logo"><i class="fas fa-laptop-code"></i> MUK'S TECH</div>
+            <ul class="nav-links">
+                <li><a href="index.html" target="_blank"><i class="fas fa-home"></i> Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <!-- Login Page -->
+        <div id="login">
+            <h1>Login to Your Account</h1>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="loginEmail">Email Address</label>
+                    <input type="email" id="loginEmail" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" placeholder="Enter your password" required>
+                </div>
+                <button type="c:\Users\M SQUARED TEDDY\Desktop\billing system\index.html" class="btn">Login</button>
+            </form>
+            <script>
+                document.getElementById("submitBtn").onclick = function () {
+                    window.location.href = "c:\Users\M SQUARED TEDDY\Desktop\billing system\index.html";
+                };
+                document.getElementById("signupBtn").onclick = function () {
+                    window.location.href = "signup.html";
+                };
+            </script>
+            <p style="margin-top: 1.5rem; text-align: center;">Don't have an account? <a href="SignUp.html"
+                    style="color: #4dc7ff;">Sign up here</a></p>
+        </div>
+
+    </div>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 MUK'S TECH. All rights reserved.</p>
+        <p class="developer-info">Developed by Mukwato Mukwato | <i class="fas fa-phone"></i> Contact: 260973542359</p>
+    </footer>
+</body>
+
+</html>
